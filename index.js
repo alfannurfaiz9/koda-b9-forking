@@ -20,6 +20,10 @@ console.log("==================================================")
  */
 import { firstUnique } from "./src/firstUnique.js";
 
+console.log("==================================================")
+
 console.log(firstUnique('aabbcddee'));
 console.log(firstUnique('aabbccdd'));
 console.log(firstUnique('javascript'));
+
+console.log("==================================================")
