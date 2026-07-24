@@ -60,5 +60,5 @@ console.log("===================================================");
 import { sumOfUnique } from "./src/sumOfUnique.js";
 
 console.log("===================================================");
-sumOfUnique([1, 2, 3, 4, 5]);
+console.log(sumOfUnique([1, 2, 3, 4, 5]));
 console.log("===================================================");
