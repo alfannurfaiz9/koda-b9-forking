@@ -14,3 +14,16 @@ let array = [2,3,4,5]
 console.log(twoSum(array, 9))
 
 console.log("==================================================")
+
+/**
+ * Ridho Contrisha
+ */
+import { firstUnique } from "./src/firstUnique.js";
+
+console.log("==================================================")
+
+console.log(firstUnique('aabbcddee'));
+console.log(firstUnique('aabbccdd'));
+console.log(firstUnique('javascript'));
+
+console.log("==================================================")
