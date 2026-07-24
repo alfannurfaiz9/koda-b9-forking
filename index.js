@@ -12,5 +12,5 @@ console.log(`Random Number for Today: ${randomizer(1, 50)}`);
 import jewels from "./src/logicCarlos.js"
 
 console.log("=================================================================")
-console.log(`Jewels: ${jewels(["a", "A"], ["A", "A", "A"])}`)
+console.log(`Jewels: ${jewels("aA", "AAAaaaa")}`)
 console.log("=================================================================")
