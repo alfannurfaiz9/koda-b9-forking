@@ -33,5 +33,5 @@ export default function mostFreqNumber(){
     }
 
     console.log(hasilCount.length);    
-    console.log(hasilCount, hasil);
+    console.log(hasil);
 }
