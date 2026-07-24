@@ -6,8 +6,6 @@ export const sumOfUnique = function (nums) {
     obj[nums[i]] = (obj[nums[i]] || 0) + 1;
   }
 
-  console.log(obj);
-
   for (const key in obj) {
     if (obj[key] === 1) {
       result += Number(key);
