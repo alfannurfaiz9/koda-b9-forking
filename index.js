@@ -37,3 +37,14 @@ import jewels from "./src/logicCarlos.js"
 console.log("=================================================================")
 console.log(`Jewels: ${jewels("aA", "AAAaaaa")}`)
 console.log("=================================================================")
+
+/**
+ * Nico Fernando Hondo
+ */
+
+import mostFrequent from './src/mostFrequentNumber.js';
+
+console.log("===================================================")
+
+mostFrequent();
+console.log("===================================================")
