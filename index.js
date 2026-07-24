@@ -27,3 +27,13 @@ console.log(firstUnique('aabbccdd'));
 console.log(firstUnique('javascript'));
 
 console.log("==================================================")
+
+/**
+ * Carlos Nainggolan
+ */
+
+import jewels from "./src/logicCarlos.js"
+
+console.log("=================================================================")
+console.log(`Jewels: ${jewels("aA", "AAAaaaa")}`)
+console.log("=================================================================")
