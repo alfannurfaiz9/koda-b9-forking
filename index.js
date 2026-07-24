@@ -8,43 +8,57 @@ console.log(`Random Number for Today: ${randomizer(1, 50)}`);
  */
 import { twoSum } from "./src/twoSum.js";
 
-console.log("==================================================")
+console.log("==================================================");
 
-let array = [2,3,4,5]
-console.log(twoSum(array, 9))
+let array = [2, 3, 4, 5];
+console.log(twoSum(array, 9));
 
-console.log("==================================================")
+console.log("==================================================");
 
 /**
  * Ridho Contrisha
  */
 import { firstUnique } from "./src/firstUnique.js";
 
-console.log("==================================================")
+console.log("==================================================");
 
-console.log(firstUnique('aabbcddee'));
-console.log(firstUnique('aabbccdd'));
-console.log(firstUnique('javascript'));
+console.log(firstUnique("aabbcddee"));
+console.log(firstUnique("aabbccdd"));
+console.log(firstUnique("javascript"));
 
-console.log("==================================================")
+console.log("==================================================");
 
 /**
  * Carlos Nainggolan
  */
 
-import jewels from "./src/logicCarlos.js"
+import jewels from "./src/logicCarlos.js";
 
-console.log("=================================================================")
-console.log(`Jewels: ${jewels("aA", "AAAaaaa")}`)
-console.log("=================================================================")
+console.log(
+  "=================================================================",
+);
+console.log(`Jewels: ${jewels("aA", "AAAaaaa")}`);
+console.log(
+  "=================================================================",
+);
 
 /**
  * Nico Fernando Hondo
  */
 
-import mostFrequent from './src/mostFrequentNumber.js';
+import mostFrequent from "./src/mostFrequentNumber.js";
 
-console.log("===================================================")
+console.log("===================================================");
 
 mostFrequent();
-console.log("===================================================")
+console.log("===================================================");
+
+/**
+ * Alfan Nurfaiz
+ */
+
+import { sumOfUnique } from "./src/sumOfUnique.js";
+
+console.log("===================================================");
+sumOfUnique([1, 2, 3, 4, 5]);
+console.log("===================================================");
